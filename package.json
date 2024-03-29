@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "vite": "^5.0.11"
+  },
+  "name": "saminations",
+  "version": "1.0.1",
+  "description": "GSAP Animation Library by samshh, it primarily uses the ScrollTrigger and TextPlugin from GSAP. Please refer to the GSAP Docs for more in-depth explanation",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "sarm"
+  },
+  "author": "Sam Dacara",
+  "license": "MIT"
+}
