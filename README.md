@@ -1,4 +1,4 @@
-# sAminations v1.0.2
+# sAminations v1.0.3
 
 GSAP Animation Library by [samshh](https://samshh.netlify.app/), it primarily uses the ScrollTrigger and TextPlugin from GSAP. Please refer to the [GSAP Docs](https://gsap.com/docs/v3/) for more in-depth explanation
 
@@ -325,12 +325,12 @@ animateSVGStrokeToFillStagger(
 
 animate path of an SVG to have a drawing effect on a single path or in multiple paths it will animate the paths each at a time.
 
-### animateSVGStrokeToFillStagger();
+### animatePin();
 
 _copy the code below and change each parameters_
 
 ```bash
-animateSVGStrokeToFillStagger(
+animatePin(
   selector,
   trigger,
   start, // unique default "center center"
