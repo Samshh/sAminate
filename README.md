@@ -1,17 +1,19 @@
-# sAminations v1.0.8
+# sAminations v1.0.9
 
 GSAP Animation Library by [samshh](https://samshh.netlify.app/), it primarily uses the ScrollTrigger and TextPlugin from GSAP. Please refer to the [GSAP Docs](https://gsap.com/docs/v3/) for more in-depth explanation
 
+Website Demo: [sAminations](https://saminations.netlify.app/)
+
 **Animations:**
 
-- SVG Path and Fill animation (recommended)
+- SVG Animations
 - Text Animations
 - Position Animations
 - Opacity Animations
 - Scale Animations
 - Rotate Animations
 - Background Color and Color Animations
-- Pin Element Animations
+- Pin Element
 
 **Pros:**
 
