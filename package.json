@@ -3,7 +3,7 @@
     "vite": "^5.0.11"
   },
   "name": "saminations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GSAP Animation Library by samshh, it primarily uses the ScrollTrigger and TextPlugin from GSAP. Please refer to the GSAP Docs for more in-depth explanation",
   "main": "main.js",
   "devDependencies": {},
