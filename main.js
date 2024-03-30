@@ -158,6 +158,7 @@ export const animateChangeColor = (
   selector,
   color,
   trigger,
+  duration,
   delay = 0,
   ease = "power1.inOut",
   start = "top center",
@@ -175,6 +176,7 @@ export const animateChangeColor = (
       scrub: scrub,
       markers: markers,
     },
+    duration: duration,
     delay: delay,
     ease: ease,
     color: color,
@@ -183,9 +185,10 @@ export const animateChangeColor = (
 
 export const animateOpacityChange = (
   selector,
+  trigger,
+  duration,
   fromOpacity = 0,
   toOpacity = 1,
-  trigger,
   ease = "power1.inOut",
   start = "top center",
   end = "bottom center",
@@ -199,6 +202,7 @@ export const animateOpacityChange = (
     {
       opacity: toOpacity,
       ease: ease,
+      duration: duration,
       scrollTrigger: {
         trigger: trigger,
         start: start,
@@ -273,16 +277,16 @@ export const animateRotate = (
 export const animateSVGStrokeToFillAll = (
   selector,
   trigger,
+  duration,
+  durationOC,
+  fill = "none",
+  delay = 0,
   start = "top center",
   end = "bottom center",
-  scrub = false,
-  markers = false,
-  delay = 0,
-  duration,
   ease = "power1.inOut",
-  fill = "none",
-  durationOC,
-  easeOC = "power1.inOut"
+  easeOC = "power1.inOut",
+  scrub = false,
+  markers = false
 ) => {
   const paths = document.querySelectorAll(selector);
 
@@ -316,16 +320,16 @@ export const animateSVGStrokeToFillAll = (
 export const animateSVGStrokeToFillStagger = (
   selector,
   trigger,
+  duration,
+  durationOC,
+  fill = "none",
+  delay = 0,
   start = "top center",
   end = "bottom center",
-  scrub = false,
-  markers = false,
-  delay = 0,
-  duration,
   ease = "power1.inOut",
-  fill = "none",
-  durationOC,
-  easeOC = "power1.inOut"
+  easeOC = "power1.inOut",
+  scrub = false,
+  markers = false
 ) => {
   const paths = document.querySelectorAll(selector);
 
@@ -359,12 +363,12 @@ export const animateSVGStrokeToFillStagger = (
 export const animatePin = (
   selector,
   trigger,
-  endTrigger = null,
   start = "center center",
   end = "center center",
   markers = false,
   scrub = false,
-  toggleActions = "play none none none"
+  toggleActions = "play none none none",
+  endTrigger = trigger
 ) => {
   gsap.from(selector, {
     scrollTrigger: {
