@@ -262,7 +262,6 @@ export const animateRotate = (
       trigger: trigger,
       start: start,
       end: end,
-      endTrigger: endTrigger,
       toggleActions: toggleActions,
       scrub: scrub,
       markers: markers,
