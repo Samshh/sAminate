@@ -1,4 +1,4 @@
-# sAminations v1.0.3
+# sAminations v1.0.4
 
 GSAP Animation Library by [samshh](https://samshh.netlify.app/), it primarily uses the ScrollTrigger and TextPlugin from GSAP. Please refer to the [GSAP Docs](https://gsap.com/docs/v3/) for more in-depth explanation
 
@@ -342,6 +342,6 @@ animatePin(
 );
 ```
 
-pin an element to stay in viewport while scrolling until.
+pin an element to stay in viewport while scrolling.
 
 **THANK YOU!**
