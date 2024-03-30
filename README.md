@@ -1,8 +1,8 @@
-# sAminations v1.0.9
+# sAminate v1.0.10
 
 GSAP Animation Library by [samshh](https://samshh.netlify.app/), it primarily uses the ScrollTrigger and TextPlugin from GSAP. Please refer to the [GSAP Docs](https://gsap.com/docs/v3/) for more in-depth explanation
 
-Website Demo: [sAminations](https://saminations.netlify.app/)
+Website Demo: [sAminate](https://saminate.netlify.app/)
 
 **Animations:**
 
@@ -45,7 +45,7 @@ Import:
 import { gsap } from  "gsap";
 import { ScrollTrigger } from  "gsap/ScrollTrigger";
 import { TextPlugin } from  "gsap/TextPlugin";
-import { functionName, anotherFunctionName } from 'saminations';
+import { functionName, anotherFunctionName } from 'saminate';
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(TextPlugin);
