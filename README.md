@@ -34,7 +34,7 @@ Install via npm in your directory:
 cd your/project/root/directory
 
 npm install gsap
-npm install saminations
+npm install saminate
 ```
 
 ## Usage
