@@ -1,4 +1,4 @@
-# sAminations v1.0.6
+# sAminations v1.0.7
 
 GSAP Animation Library by [samshh](https://samshh.netlify.app/), it primarily uses the ScrollTrigger and TextPlugin from GSAP. Please refer to the [GSAP Docs](https://gsap.com/docs/v3/) for more in-depth explanation
 
@@ -293,6 +293,7 @@ animateSVGStrokeToFillAll(
   delay,
   start,
   end,
+  toggleActions
   ease,
   easeOC,
   scrub,
@@ -316,6 +317,7 @@ animateSVGStrokeToFillStagger(
   delay,
   start,
   end,
+  toggleActions
   ease,
   easeOC,
   scrub,
