@@ -246,7 +246,7 @@ export const animateScale = (
 
 export const animateRotate = (
   selector,
-  rotate,
+  rotation,
   trigger,
   duration,
   delay = 0,
@@ -269,7 +269,7 @@ export const animateRotate = (
     duration: duration,
     delay: delay,
     ease: ease,
-    rotate: rotate,
+    rotation: rotation,
   });
 };
 
