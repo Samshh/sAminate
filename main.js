@@ -273,18 +273,15 @@ export const animateRotate = (
   });
 };
 
-export const animateSVGStrokeToFillAll = (
+export const animateSVGStroke = (
   selector,
   trigger,
   duration,
-  durationOC,
-  fill = "none",
   delay = 0,
   start = "top center",
   end = "bottom center",
   toggleActions = "play none none reverse",
   ease = "power1.inOut",
-  easeOC = "power1.inOut",
   scrub = false,
   markers = false
 ) => {
@@ -307,29 +304,19 @@ export const animateSVGStrokeToFillAll = (
       strokeDashoffset: 0,
       duration: duration,
       ease: ease,
-      onComplete: function () {
-        gsap.to(path, {
-          fill: fill,
-          duration: durationOC,
-          ease: easeOC,
-        });
-      },
     });
   });
 };
 
-export const animateSVGStrokeToFillStagger = (
+export const animateSVGStrokeStagger = (
   selector,
   trigger,
   duration,
-  durationOC,
-  fill = "none",
   delay = 0,
   start = "top center",
   end = "bottom center",
-  toggleActions = "play none none reverse",
+  toggleActions = "play reset play reset",
   ease = "power1.inOut",
-  easeOC = "power1.inOut",
   scrub = false,
   markers = false
 ) => {
@@ -352,13 +339,6 @@ export const animateSVGStrokeToFillStagger = (
       strokeDashoffset: 0,
       duration: duration,
       ease: ease,
-      onComplete: function () {
-        gsap.to(path, {
-          fill: fill,
-          duration: durationOC,
-          ease: easeOC,
-        });
-      },
     });
   });
 };

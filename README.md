@@ -1,4 +1,4 @@
-# sAminations v1.0.7
+# sAminations v1.0.8
 
 GSAP Animation Library by [samshh](https://samshh.netlify.app/), it primarily uses the ScrollTrigger and TextPlugin from GSAP. Please refer to the [GSAP Docs](https://gsap.com/docs/v3/) for more in-depth explanation
 
@@ -279,23 +279,21 @@ animateRotate(
 
 animate the element of your HTML to change its rotation.
 
-### animateSVGStrokeToFillAll();
+### animateSVGStroke();
 
 _copy the code below and change each parameters_
 
 ```bash
-animateSVGStrokeToFillAll(
+animateSVGStroke(
   selector, // sample ".svg path"
   trigger,
   duration,
-  durationOC,
   fill,
   delay,
   start,
   end,
   toggleActions
   ease,
-  easeOC,
   scrub,
   markers
 );
@@ -303,23 +301,21 @@ animateSVGStrokeToFillAll(
 
 animate paths of an SVG to have a drawing effect on a single path or in multiple paths it will animate all the paths simultaneously.
 
-### animateSVGStrokeToFillStagger();
+### animateSVGStrokeStagger();
 
 _copy the code below and change each parameters_
 
 ```bash
-animateSVGStrokeToFillStagger(
+animateSVGStrokeStagger(
   selector, // sample ".svg path"
   trigger,
   duration,
-  durationOC,
   fill,
   delay,
   start,
   end,
-  toggleActions
+  toggleActions // unique default "play reset play reset"
   ease,
-  easeOC,
   scrub,
   markers
 );
